@@ -8,10 +8,18 @@ with [FrankenPHP](https://frankenphp.dev) and [Caddy](https://caddyserver.com/) 
 ## Getting Started
 
 1. If not already done, [install Docker Compose](https://docs.docker.com/compose/install/) (v2.10+)
+2. Run `git clone https://github.com/sfbdata/symfony-completo.git` to clone repository
+3. Run `cd symfony-completo`
 2. Run `docker compose build --no-cache` to build fresh images
 3. Run `docker compose up --pull always -d --wait` to set up and start a fresh Symfony project
 4. Open `https://localhost` in your favorite web browser and [accept the auto-generated TLS certificate](https://stackoverflow.com/a/15076602/1352334)
 5. Run `docker compose down --remove-orphans` to stop the Docker containers.
+6. Run `docker ps`
+7. Run `docker exec -it name bash`
+8. Run `composer require symfony/maker-bundle --dev`
+9. Run `composer require twig`
+10. Run `npm install bootstrap --save-dev`
+11. Follow  [`Bootstrap e Webpack`](https://getbootstrap.com/docs/5.3/getting-started/webpack/) The official guide for how to include and bundle Bootstrap’s CSS and JavaScript in your project using Webpack.
 
 ## Features
 
