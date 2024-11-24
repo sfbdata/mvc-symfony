@@ -18,8 +18,9 @@ with [FrankenPHP](https://frankenphp.dev) and [Caddy](https://caddyserver.com/) 
 7. Run `docker exec -it name bash`
 8. Run `composer require symfony/maker-bundle --dev`
 9. Run `composer require twig`
-10. Run `npm install bootstrap --save-dev`
-11. Follow  [`Bootstrap e Webpack`](https://getbootstrap.com/docs/5.3/getting-started/webpack/) The official guide for how to include and bundle Bootstrap’s CSS and JavaScript in your project using Webpack.
+10. Follow [Installing Encore](https://symfony.com/doc/current/frontend/encore/installation.html) Installing Encore in Symfony Applications
+
+
 
 ## Features
 

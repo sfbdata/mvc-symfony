@@ -1,7 +1,14 @@
 {
   "devDependencies": {
+    "@symfony/webpack-encore": "^5.0.1",
+    "autoprefixer": "^10.4.20",
     "bootstrap": "^5.3.3",
+    "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.3",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.81.0",
+    "sass-loader": "^16.0.3",
+    "style-loader": "^4.0.0",
     "webpack": "^5.96.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
@@ -11,12 +18,16 @@
   "description": "A [Docker](https://www.docker.com/)-based installer and runtime for the [Symfony](https://symfony.com) web framework, with [FrankenPHP](https://frankenphp.dev) and [Caddy](https://caddyserver.com/) inside!",
   "main": "index.js",
   "directories": {
-    "doc": "docs"
+    "doc": "docs",
+    "test": "tests"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8"
+  }
 }
